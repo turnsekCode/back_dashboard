@@ -12,7 +12,8 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://admin.pixeltech.es",
+    //origin: "https://admin.pixeltech.es",
+    origin: "https://admin.isolution.site",
     //origin: "http://192.168.1.106:3030",
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
     credentials: true,
