@@ -19,7 +19,7 @@ router.get("/project/:slug", getTaskSlug);
 router.get("/projects", getAllTasks);
 router.post(
   "/projects",
-  //verifyRole("superadmin"),
+  verifyRole("superadmin"),
   validateSchema(createTaskSchema),
   createTask
 );
