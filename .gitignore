@@ -1,0 +1,31 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# dotenv environment variables file
+.env
+
+# Directorios específicos de IDEs/editors
+.vscode/
+.idea/
+
+# Sistema operativo específico
+.DS_Store
+Thumbs.db
+
+# Dependencias instaladas por npm
+package-lock.json
+
+# Coverage directory used by testing tools
+coverage/
+
+# Configuración de entorno para producción
+.env.production
+
+# Compiled source files
+dist/
+build/
